@@ -1,0 +1,212 @@
+.tm-banner-inner{
+    background-color: #fff;
+}
+
+.tm-nav-item :hover {
+    background-color: lightskyblue;
+    color: #fff;
+}
+
+.tm-banner {
+    background: linear-gradient(to right, lightskyblue 0%, burlywood 100%);
+}
+
+.tm-banner-text {
+    text-shadow: 4px 5px 3px #333;
+    animation: banner-text-move 4s;
+}
+
+@keyframes banner-text-move {
+    from {
+        transform: translate(200px, 0);
+    }
+
+    to {
+        transform: translate(0, 0);
+    }
+}
+
+.flex-2-col {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tm-team-description-container {
+    align-self: center;
+}
+
+.tm-team-description-container .tm-section-title {
+    text-align: center;
+}
+
+#about li:nth-child(odd) :hover {
+    background-color: lightgrey;
+    color: lightskyblue;
+}
+
+.heading.tm-content-box h2 {
+    color: lightskyblue;
+    text-align: center;
+}
+
+.heading ol {
+    list-style-type: lower-alpha;
+}
+
+.heading a:hover::before {
+    display: inline-block;
+    content: ">";
+    color: #000;
+    font-weight: bold;
+}
+
+.heading .text::after {
+    display: inline-block;
+    content: "New";
+    color: red;
+    font-weight: bold;
+    vertical-align: super;
+    font-size: 0.6em;
+}
+
+.blocks h2.tm-section-title {
+    text-align: left;
+}
+
+.blocks .tm-team-description-container :last-child {
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    font-style: italic;
+}
+
+.blocks .tm-content-box li {
+    padding: 10px;
+    font-style: italic;
+}
+
+.blocks .tm-content-box p::first-letter {
+    font-weight: bold;
+}
+
+.blocks .tm-content-box li:nth-child(odd) {
+    background-color: skyblue;
+    color: #fff;
+}
+
+p.tm-section-description {
+    line-height: 30px;
+    text-indent: 25px;
+}
+
+#contact input {
+    border: none;
+    border-bottom: 1px solid skyblue;
+}
+
+#contact input:focus, #contact button:focus {
+    background-color: skyblue;
+}
+
+#contact textarea {
+    border: 1px solid skyblue;
+    background-image: url(../img/email-icon.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: 99% 95%;
+}
+
+#contact textarea::after {
+    content: "dsd";
+}
+
+#contact button {
+    color: skyblue;
+    background-color: #fff;
+    border: 1px solid skyblue;
+    padding: 15px;
+    width: 100px;
+    float: right;
+}
+
+.tm-main-content > div, .tm-main-content > section, .tm-sidebar {
+    box-shadow: 0px 0px 10px rgba(61, 55, 61, 0.7);
+}
+
+.tm-main-content > section::before {
+    content: "";
+    border-style: solid;
+    border-width: 45px 45px 0 0;
+    border-color: skyblue transparent transparent transparent;
+}
+
+@media print {
+
+    .tm-sidebar, 
+    section img,
+    #about,
+    .tm-main-content > section::before,
+    #contact textarea::after, 
+    .heading .text::after, 
+    .heading a:hover::before,
+    .blocks .tm-content-box,
+    .img-contact-us,
+    #contact, 
+    .carousel-indicators {
+        display: none
+    }
+
+    body {
+        font-family: arial, serif;
+        opacity: 0.7;
+    }
+
+    .tm-team-description-container,
+    .heading,
+    .carousel-item,
+    .tm-footer  {
+        max-width: 100%;
+        width: 90%;
+        padding: 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .heading ol {
+        list-style-type: none;
+    }
+
+    p.tm-section-description {
+        line-height: initial;
+        text-indent: 0;
+    }
+
+    .blocks h2.tm-section-title {
+        text-align: center;
+    }
+
+    .heading {
+        margin-top: -50px;
+    }
+
+    .tm-content-header {
+        margin-top: -100px;
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+    .tm-footer {
+        margin-top: -60px;
+    }
+
+    .blocks .tm-team-description-container {
+        margin-top: -50px;
+    }
+
+    .heading li:nth-child(even) {
+        margin-left: -300px;
+    }
+
+    .heading li:nth-child(odd) {
+        margin-right: -200px;
+    }
+}
