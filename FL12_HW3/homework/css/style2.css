@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #12111b; }
+
+.wrapping, .header .header-wrap, .footer .footer-wrap {
+  width: 80%;
+  margin: 0 auto; }
+
+.logo-markup img, .header .header-wrap .landing-logo img, .footer .footer-wrap .landing-logo img {
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin-right: 10px;
+  margin-top: 4px; }
+.logo-markup p, .header .header-wrap .landing-logo p, .footer .footer-wrap .landing-logo p {
+  font-weight: bold;
+  font-size: 18px; }
+  .logo-markup p span, .header .header-wrap .landing-logo p span, .footer .footer-wrap .landing-logo p span {
+    display: block;
+    font-weight: normal;
+    font-size: 10px;
+    margin-left: 43px; }
+
+.header {
+  background-image: url("../img/m-h-night.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 0 0 500px/170px 0; }
+  .header .header-wrap {
+    padding: 10px;
+    color: #eee; }
+    .header .header-wrap p.header_heading {
+      font-size: 36px;
+      width: 300px;
+      font-weight: bold;
+      margin: 25px 0 5px 0;
+      background: linear-gradient(to left, #eb3219, #eb3219) no-repeat -150px 50px; }
+    .header .header-wrap p.header_text {
+      white-space: pre-line;
+      font-size: 12px;
+      line-height: 20px;
+      margin-bottom: 40px; }
+    .header .header-wrap div button {
+      color: #fff;
+      font-weight: bold;
+      padding: 10px 30px;
+      background-color: #cfcc0e;
+      border: none;
+      border-radius: 2px;
+      margin-right: 10%; }
+    .header .header-wrap div a {
+      color: #fff; }
+    .header .header-wrap div:last-of-type {
+      margin-bottom: 100px; }
+
+.section .section_text {
+  text-align: center;
+  width: 230px;
+  font-size: 22px;
+  margin: 20px auto;
+  color: #eee;
+  background: linear-gradient(to left, #eb3219, #eb3219) no-repeat 120px 0px;
+  background-size: 95px 25px; }
+.section .section_card_wrap .section_card {
+  width: 60%;
+  margin: 15px auto;
+  background-color: #3b384b;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  border-radius: 5px; }
+  .section .section_card_wrap .section_card .section_card_img {
+    border-radius: 5px; }
+  .section .section_card_wrap .section_card .section_card_right_container {
+    width: 50%;
+    margin: 0 auto;
+    color: #ccc; }
+    .section .section_card_wrap .section_card .section_card_right_container .section_card_heading {
+      font-size: 18px;
+      text-align: center;
+      margin: 20px 0;
+      color: #fff; }
+    .section .section_card_wrap .section_card .section_card_right_container .section_card_text {
+      font-size: 12px;
+      text-align: justify;
+      margin: 15px 0; }
+    .section .section_card_wrap .section_card .section_card_right_container a.section_link {
+      color: #ccc;
+      display: block;
+      text-align: center;
+      font-size: 12px; }
+.section .section_banner {
+  width: 65%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+  border-radius: 5px;
+  position: relative;
+  top: 35px;
+  background: linear-gradient(to right, #cfcc0e, #e21258); }
+  .section .section_banner .section_banner_text_wrap .section_banner_heading {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #eee;
+    background: linear-gradient(to left, #eb3219, #eb3219) no-repeat 65px 0px;
+    background-size: 35px 30px; }
+  .section .section_banner .section_banner_text_wrap .section_banner_text {
+    font-size: 12px;
+    color: #ccc; }
+  .section .section_banner button {
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 30px;
+    background-color: #cfcc0e;
+    border: none;
+    border-radius: 2px;
+    margin: 10px 0; }
+
+.footer {
+  background-color: #3b384b; }
+  .footer .footer-wrap {
+    padding: 60px 10px 30px 10px;
+    color: #ccc; }
+    .footer .footer-wrap .landing-logo {
+      width: 38%;
+      display: inline-block; }
+    .footer .footer-wrap p.footer_text {
+      width: 23%;
+      display: inline-block;
+      font-size: 12px; }
+    .footer .footer-wrap .footer-cr {
+      display: inline-block;
+      width: 38%;
+      font-size: 12px;
+      text-align: right; }
