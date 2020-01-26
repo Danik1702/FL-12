@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#root {
+    margin: 20px;
+}
+
+.node {
+    clear: both;
+}
+
+.title {
+    cursor: pointer;
+}
+
+.icon-folder {
+    float: left;
+    color: rgb(255, 216, 89);
+    cursor: pointer;
+}
+
+.icon-file {
+    float: left;
+    color: #999;
+    cursor: pointer;
+}
+
+.visible {
+    display: initial;
+    clear: both;
+}
+
+.hidden {
+    display: none;
+}
