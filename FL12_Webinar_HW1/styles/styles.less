@@ -1,0 +1,108 @@
+@import './variables.less';
+
+
+.text-white {
+    color: #fff;
+    font-weight: 555;
+    font-size: 12px;
+}
+
+.border-bottom-blue {
+    padding-bottom: 1em * .25;
+    border-bottom: 1px solid @blue;
+}
+
+.header {
+
+    .header--bb-color--light-grey {
+        border-bottom: 1px solid #ddd;
+    }
+}
+
+.active {
+    background-color: @blue;
+    color: #fff !important;
+    font-weight: 555;
+}
+
+.navigation {
+
+    .navigation__link {
+        font-size: 14px;
+
+        &:hover {
+            background-color: @blue;
+            color: #fff !important;
+            font-weight: 555;
+        }
+    }
+}
+
+.class-detail {
+
+    .class-detail__header--color--blue {
+        color: @blue;
+        .border-bottom-blue();
+    }
+
+    .class-detail__title--color--blue {
+        color: @blue;
+    }
+}
+
+.classes-list {
+
+    .classes-list__box {
+        cursor: pointer;
+
+        .classes-list__title {
+            .text-white();
+            text-align: center;
+        }
+    }
+
+    .classes-list__header--color--blue {
+        color: @blue;
+        .border-bottom-blue();
+    }
+
+    .classes-list__box--bcolor--red {
+        border: 1px solid @red;
+
+        .classes-list_title--bgcolor--red {
+            background-color: @red;
+        }
+    }
+
+    .classes-list__box--bcolor--blue {
+        border: 1px solid @blue;
+
+        .classes-list_title--bgcolor--blue {
+            background-color: @blue;
+        }
+    }
+
+    .classes-list__box--bcolor--orange {
+        border: 1px solid @orange;
+
+        .classes-list_title--bgcolor--orange {
+            background-color: @orange;
+        }
+    }
+
+    .classes-list__box--bcolor--green {
+        border: 1px solid @green;
+
+        .classes-list_title--bgcolor--green {
+            background-color: @green;
+        }
+    }
+}
+
+.footer {
+    .text-white();
+    
+    .footer__text {
+        background-color: @grey;
+    }
+}
