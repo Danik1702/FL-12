@@ -1,0 +1,62 @@
+li {
+    list-style-type: none;
+}
+
+.list {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #aaa;
+
+}
+
+.button { 
+    margin: 10px 10px 10px 0;
+    height: 30px;
+    width: 100px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+}
+
+.edit-button {
+    background-color: rgb(38, 187, 38);
+}
+
+.edit-button:hover {
+    background-color: rgb(0, 119, 0);
+}
+
+.delete-button {
+    background-color: rgb(207, 22, 22);
+}
+
+.delete-button:hover {
+    background-color: rgb(146, 20, 20);
+}
+
+.form-input {
+    margin-bottom: 5px;
+    border: none;
+    border-bottom: 1px solid rgb(54, 196, 54);
+    box-shadow: none;
+    padding: 3px;
+    outline: none;
+}
+
+.form-submit:hover {
+   background-color: #888;
+}
+
+.hidden {
+    display: none;
+}
+
+.spinner {
+    height: 100vh;
+}
+
+
+
