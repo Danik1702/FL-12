@@ -1,0 +1,232 @@
+/* General */
+
+body {
+    background-color: #ddd;
+}
+
+.App {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header styles*/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 0 20px 0;
+}
+
+.search-form {
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.header-search {
+    width: 70%;
+    padding: 0 40px;
+}
+
+.button {
+    border-radius: 5px;
+    background: linear-gradient(rgb(179, 221, 238), rgb(16, 152, 206));
+    cursor: pointer;
+}
+
+.w20p {
+    width: 20%;
+}
+
+.button-container {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.button-text {
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.button-cancel {
+    border-radius: 5px;
+}
+
+.button-cancel:hover {
+    background-color: #ccc;
+    color: #fff;
+}
+
+.cancel-button-text {
+    font-size: 16px;
+    color: #666;
+}
+
+.va {
+    align-self: center;
+}
+
+.button:hover {
+    background: linear-gradient(rgb(16, 152, 206), rgb(179, 221, 238));
+}
+
+::placeholder {
+    opacity: 0.5;
+}
+
+/* Form styles */
+
+.form-wrapper {
+    width: 90%;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.form-container {
+    width: 60%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.form-header {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.form-textarea {
+    resize: none;
+    height: 150px;
+    padding: 0;
+}
+
+.border-gray {
+    border: 1px solid #ccc;
+}
+
+.form-two-rows {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-container {
+    width: 50%;
+}
+
+.date-input-container {
+    width: 40%;
+}
+
+.submit-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-button {
+    width: 40%;
+    height: 40px;
+}
+
+.submit-button {
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-shadow: none;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+/*CourseList styles*/
+
+.course {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-bottom: 5px;
+}
+
+.course-date {
+    width: 15%;
+}
+
+.course-name {
+    width: 20%;
+}
+
+.course-description {
+    width: 35%;
+}
+
+.course-duration {
+    width: 10%;
+}
+
+.dropdown {
+    width: 5%;
+    position: relative;
+}
+
+.course-text {
+    color: #888;
+}
+
+.course-name-text {
+    color: #333;
+    font-weight: bold;
+}
+
+.dropdown-icon {
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #fff;
+    min-width: 150px;
+    border-radius: 5px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 5px;
+}
+
+.dropdown-button {
+    font-size: 14px;
+    padding: 3px 0 3px 10px;
+}
+
+.edit-button {
+    text-decoration: none;
+}
+
+.edit-button:hover {
+    background-color: skyblue;
+}
+
+.delete-button {
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: rgb(248, 147, 147);
+}
+
+.hide {
+    display: none;
+}
