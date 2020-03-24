@@ -1,0 +1,38 @@
+.list-wrapper {
+    font-size: 12px;
+}
+
+.header {
+    height: 100px;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button {
+    height: 50px;
+    width: 25%;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.button:hover {
+    background-color: rgb(4, 61, 4);
+}
+
+.hide {
+    display: none;
+}
+
+.rm {
+    background-color: rgb(196, 196, 93);
+}
+
+.list {
+    list-style-type: none;
+}
